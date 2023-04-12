@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;	
+    background-color: rgb(74, 74, 167);	
+    }
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 500px;
+}
+header .header-brand{
+    font-family: catamaran;
+    font-size: 24px;
+    font-weight: 900;
+    color:white;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .header-cases{
+    display: none;
+}
+header nav ul li a{
+    font-family: catamaran;
+    font-size: 16px;
+    color:white;
+}
+#paragraph{
+    font-size: 200px;
+    line-height: 62px;
+    font-family: 'playfair display',serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.h1{
+    font-size: center;
+}
+.index-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/kuku.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper{
+    width: 100%;
+}
+.img-banner{
+    display: none;
+}
+.img-info h2 {
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+.img-info p {
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 50px;
+    color: #c74343;
+    line-height: 33px;
+}
+.wrapper{
+    width: 600px;
+    margin: o auto;
+}
+.index-banner h1{
+    font-family: catamaran;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #131111;
+
+}
+.footer{
+    width: calc(100%-60px);
+    height: 150px;
+    background-color: rgb(74, 74, 167);
+    color: aqua;
+    padding: 40px 40px;
+    margin: top 5px;
+}
+.footer ul{
+    list-style: none;
+    display: inline-block;
+}
+.footer ui li{
+    display: inline-block;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #111;
+    padding: 0 20px;
+    font-size: 20px;
+}
+li{
+    display: inline-block;
+}
+#index-boxlink {
+    margin: 20px;
+    width: calc(100% - 20px);
+    height: 100px;
+
+}
